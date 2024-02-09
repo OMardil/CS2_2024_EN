@@ -21,7 +21,24 @@ public class Activity3_P1 {
 	 * @array Input array to be printed
 	 */
 	public static void printArray(int[] array) {
-		//complete code here
+		
+		if (array == null) {
+			System.out.println("[]");
+		}
+		
+		
+		System.out.print("[");
+		
+		for(int i=0; i<array.length; i++) {
+			if (array.length-1 == i) {
+				System.out.print(array[i]);
+			} else {
+				System.out.print(array[i] + ",");				
+			}
+		}
+		
+		System.out.print("]");
+		System.out.println();
 	}
 
 }
