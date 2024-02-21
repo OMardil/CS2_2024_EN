@@ -8,7 +8,7 @@ public class Student {
 	private int subjectCount;
 	private String[] subjects;
 	private int[] grades;	
-	public boolean approvedAllSubjects;
+	private boolean approvedAllSubjects;
 	
 	public Student(String name) {
 		this.name = name;
