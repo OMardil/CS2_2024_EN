@@ -5,7 +5,6 @@ import java.util.Arrays;
 public class Student {
 	
 	private String name;
-	
 	private int subjectCount;
 	private String[] subjects;
 	private int[] grades;	
@@ -34,6 +33,9 @@ public class Student {
 			   "Approved all subjects: " + this.approvedAllSubjects;
 	}
 
+	public void setName(String name) {
+		this.name = name;
+	}
 	
 	public void addGrade(int grade, String subject) {
 		if (this.subjectCount < this.grades.length) {
