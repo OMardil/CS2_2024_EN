@@ -5,7 +5,7 @@ public class Demo {
 	public static void main(String[] args) {
 
 		Student s1 = new Student("Roberto");
-		System.out.println(s1);		
+		System.out.println(s1);
 		System.out.println("--------");
 		
 		s1.addGrade(100, "Computer Science");
